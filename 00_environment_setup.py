@@ -10,7 +10,6 @@ directories = [
     'data/raw',
     'data/processed',
     'data/synthetic',
-    'data/backups',
     'models/checkpoints'
 ]
 
