@@ -24,7 +24,6 @@ hackathon_project/
 │   ├── raw/                 # Original building data
 │   ├── processed/           # Preprocessed datasets
 │   ├── synthetic/          # Generated synthetic data
-│   └── backups/            # Fallback datasets
 └── models/
     └── checkpoints/        # Model checkpoints
 ```
