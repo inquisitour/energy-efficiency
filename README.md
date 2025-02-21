@@ -14,12 +14,12 @@ This project was developed for the "Watt's Up? Hack for Energy Efficiency" hacka
 ```
 hackathon_project/
 ├── config.py                  # Configuration parameters
-├── 00_environment_setup.ipynb # Environment setup and verification
-├── 01_data_loading.ipynb     # Data preprocessing pipeline
-├── 02_synthetic_generation.ipynb # Privacy-preserving GAN implementation
-├── 03_validation.ipynb       # Synthetic data validation
-├── 04_simulation.ipynb       # Energy optimization model
-├── 05_presentation.ipynb     # Results compilation
+├── 00_environment_setup.py # Environment setup and verification
+├── 01_data_loading.py     # Data preprocessing pipeline
+├── 02_synthetic_generation.py # Privacy-preserving GAN implementation
+├── 03_validation.py       # Synthetic data validation
+├── 04_simulation.py       # Energy optimization model
+├── 05_presentation.py     # Results compilation
 ├── data/
 │   ├── raw/                 # Original building data
 │   ├── processed/           # Preprocessed datasets
