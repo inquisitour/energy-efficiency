@@ -16,17 +16,7 @@ try:
     raw_df = pd.read_csv(RAW_PATH, parse_dates=['timestamp'])
     print("Successfully loaded organizer's dataset")
 except FileNotFoundError:
-    print("WARNING: Generating fallback sample data")
-    np.random.seed(42)  # For reproducibility
-    dates = pd.date_range(start="2024-01-01", periods=8760, freq='H')
-    raw_df = pd.DataFrame({
-        'timestamp': dates,
-        'energy_kWh': np.clip(np.random.normal(50, 15, 8760), 0, None),
-        'temperature_C': np.random.uniform(10, 30, 8760),
-        'occupancy_pct': np.random.beta(2, 5, 8760),
-        'building_type': np.random.choice(['Office', 'Residential'], 8760)
-    })
-    raw_df.to_csv(RAW_PATH, index=False)
+    print("WARNING: dataset not found!!")
 
 # Validate data
 try:
