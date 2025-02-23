@@ -3,6 +3,14 @@
 ## Overview
 This project was developed for the "Watt's Up? Hack for Energy Efficiency" hackathon at TU Wien (February 22-23, 2025). It implements a privacy-preserving approach to optimize building energy consumption using synthetic data generation and machine learning techniques.
 
+
+## Team
+- Parteek Deshmukh 
+- Kartik Arya
+- Junaid Muhammad 
+- Abhinandan Singh
+
+
 ## Key Features
 - 🔒 Privacy-preserving synthetic data generation using DP-DoppelGANger
 - 📊 Time-series energy consumption analysis
@@ -121,14 +129,7 @@ This project was developed during a hackathon but we welcome improvements:
 5. Create a Pull Request
 
 
-## Team
-- Parteek Deshmukh 
-- Kartik Arya
-- Junaid Muhammad 
-- Abhinandan Singh
 
-## Acknowledgments
-- "Whatt's Up" hackathon Organisers
 
 
 ---
