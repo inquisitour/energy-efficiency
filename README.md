@@ -32,7 +32,7 @@ hackathon_project/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/watts-up-hackathon.git
+git clone https://github.com/inquisitour/energy-efficiency
 cd watts-up-hackathon
 ```
 
@@ -120,20 +120,16 @@ This project was developed during a hackathon but we welcome improvements:
 4. Push to the branch
 5. Create a Pull Request
 
-## License
-MIT License - see LICENSE file for details
 
 ## Team
-- [Your Name]
-- [Team Member 2]
-- [Team Member 3]
+- Parteek Deshmukh 
+- Kartik Arya
+- Junaid Muhammad 
+- Abhinandan Singh
 
 ## Acknowledgments
-- TU Wien for hosting the hackathon
-- [Other organizations/people to thank]
+- "Whatt's Up" hackathon Organisers
 
-## Contact
-For questions or feedback, please contact [your email]
 
 ---
 **Note**: This project was developed during a hackathon and is provided as-is. For production use, additional testing and validation would be recommended.
